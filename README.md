@@ -1,3 +1,3 @@
 ## WebServer
 
-* Basic WebServer using NodeJs and Express
+* Basic WebServer using NodeJs, TypeScript and Express.
