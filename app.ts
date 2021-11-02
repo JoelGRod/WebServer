@@ -2,10 +2,12 @@ import express from "express";
 import path from "path";
 import hbs from "hbs";
 
+require("dotenv").config();
+
 import { Request, Response } from "express";
 
 // Global
-const port: number = 8080;
+const port: string | undefined = process.env.PORT;
 
 // Server Instance
 const app = express();
